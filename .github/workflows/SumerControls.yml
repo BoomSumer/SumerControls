@@ -1,0 +1,26 @@
+name: Publish to NuGet
+
+on:
+  push:
+    branches:
+      - Rux
+
+jobs:
+  build-and-publish:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '6.0.x'
+
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Publish to NuGet
+      env:
+        NuGetApiKey: ${{ secrets.NUGET_API_KEY }}
+      run: .\nuget\build.ps1 -version $env:GITHUB_SHA
