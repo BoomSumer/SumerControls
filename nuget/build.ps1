@@ -3,7 +3,7 @@ param(
 )
 
 # 定义变量
-$projectName = "SmileControls"
+$projectName = "SumerControls"
 $projectPath = "$PSScriptRoot\$projectName\$projectName.csproj"
 $nupkgOutputDirectory = "$PSScriptRoot\NuGetPackages"
 
