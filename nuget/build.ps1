@@ -14,4 +14,4 @@ msbuild $projectPath /p:Configuration=Release /t:Clean,Build
 nuget pack $projectPath -Prop Configuration=Release -Version $version -OutputDirectory $nupkgOutputDirectory -Symbols
 
 # 将NuGet包推送到NuGet.org
-nuget push "$nupkgOutputDirectory\$projectName.$version.nupkg" -Source nuget.org -ApiKey $env:NuGetApiKey
+nuget push "$nupkgOutputDirectory\$projectName.$version.nupkg" -Source nuget.org -ApiKey $env:oy2pubhw37pupbh3oh6aqazrv5pdjt7eliechgwu44blni
