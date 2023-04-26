@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SumerControls.Controls.MyDialog
+namespace SumerControls.Controls
 {
     /// <summary>
     /// 按照步骤 1a 或 1b 操作，然后执行步骤 2 以在 XAML 文件中使用此自定义控件。
@@ -189,7 +189,7 @@ namespace SumerControls.Controls.MyDialog
         {
             if (element != null)
             {
-                KeyValuePair<string, FrameworkElement> keyValuePair = ContainerDic.FirstOrDefault((KeyValuePair<string, FrameworkElement> item) => element == item.Value);
+                KeyValuePair<string, FrameworkElement> keyValuePair = ContainerDic.FirstOrDefault((item) => element == item.Value);
                 if (!string.IsNullOrEmpty(keyValuePair.Key))
                 {
                     ContainerDic.Remove(keyValuePair.Key);

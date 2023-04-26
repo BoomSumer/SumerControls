@@ -7,7 +7,7 @@ using System.Windows.Documents;
 using System.Windows.Media;
 using System.Windows;
 
-namespace SumerControls.Controls.MyDialog
+namespace SumerControls.Controls
 {
     public class AdornerContainer : Adorner
     {
