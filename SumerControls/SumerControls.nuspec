@@ -15,7 +15,7 @@
   </metadata>
   <files>
     <!-- 程序集 -->
-    <file src="bin\Debug\net6.0-windows\SumerControls.dll" target="lib\net6.0\SumerControls.dll"/>
+    <file src="bin\Debug\net6.0-windows\SumerControls.dll" target="lib\net6.0-windows\SumerControls.dll"/>
     
   </files>
 </package>
