@@ -19,4 +19,4 @@ jobs:
       uses: nuget/push@v2
       with:
         nuget-api-key: ${{ secrets.NUGET_API_KEY }}
-        package: ./bin/*.nupkg
+        package: ./bin/Debug/*.nupkg
