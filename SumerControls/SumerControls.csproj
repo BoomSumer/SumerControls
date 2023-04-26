@@ -6,4 +6,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Icon\logoyxz.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icon\logoyxz.png" />
+  </ItemGroup>
+
 </Project>

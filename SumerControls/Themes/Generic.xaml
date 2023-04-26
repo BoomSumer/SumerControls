@@ -5,5 +5,7 @@
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="pack://application:,,,/SumerControls;component/Themes/MyDialog.xaml"/>
     </ResourceDictionary.MergedDictionaries>
+        
+
     
 </ResourceDictionary>
