@@ -14,7 +14,7 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build and pack
-      run: dotnet pack --configuration Release
+      run: dotnet pack --configuration Debug
     - name: Publish to NuGet
       uses: nuget/push@v2
       with:
