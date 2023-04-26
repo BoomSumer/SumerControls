@@ -3,14 +3,14 @@
   <metadata>
     <!-- 包元数据 -->
     <id>SumerConters</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>SumerConters</title>
     <authors>Ruxsmile</authors>
     <owners>Ruxsmile</owners>
     <description>My Library description.</description>
-    <releaseNotes>Release notes for version 1.0.0.</releaseNotes>
+    <releaseNotes>Release notes for version 1.0.1</releaseNotes>
     <projectUrl>https://github.com/BoomSumer/SumerControls</projectUrl>
-    <iconUrl>https://github.com/BoomSumer/SumerControls/blob/master/SumerControls/Icon/logoyxz.png</iconUrl>
+    <icon>https://github.com/BoomSumer/SumerControls/blob/master/SumerControls/Icon/logoyxz.png</icon>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
   </metadata>
