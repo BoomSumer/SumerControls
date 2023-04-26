@@ -10,6 +10,7 @@
     <description>My Library description.</description>
     <releaseNotes>Release notes for version 1.0.0.</releaseNotes>
     <projectUrl>https://github.com/BoomSumer/SumerControls</projectUrl>
+    <iconUrl>https://github.com/BoomSumer/SumerControls/blob/master/SumerControls/Icon/logoyxz.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
   </metadata>
